@@ -1,0 +1,16 @@
+[package]
+name = "alerts"
+version = "0.1.0"
+authors = ["mandar <01.mandar@gmail.com>"]
+license = "MIT/Apache-2.0"
+keywords = ["alert", "messagebox"]
+readme = "README.md"
+
+[dependencies]
+
+[target.'cfg(windows)'.dependencies]
+winapi = { version = "0.3", features = ["winuser"] }
+
+[lib]
+name = "alert"
+path = "src/alert.rs"
