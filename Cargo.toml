@@ -4,7 +4,9 @@ version = "0.1.0"
 authors = ["mandar <01.mandar@gmail.com>"]
 license = "MIT/Apache-2.0"
 keywords = ["alert", "messagebox"]
-readme = "README.md"
+description = """
+A alert message dialog box
+"""
 
 [dependencies]
 

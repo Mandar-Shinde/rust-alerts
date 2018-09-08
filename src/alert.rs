@@ -4,11 +4,10 @@
 //! # Example
 //!
 //! ```
-//! #[macro_use]
 //! extern crate alerts;
 //!
 //! fn main() {
-//!     alert("Alert","Hello world");
+//!     alert::alert("Alert","hello world");
 //! }
 //! ```
 
